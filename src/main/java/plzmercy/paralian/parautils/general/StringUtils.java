@@ -227,6 +227,7 @@ public class StringUtils {
         return "[" + location.getWorld().getName() + "," + location.getX() + "," + location.getY() + "," + location.getZ() + "," + location.getYaw() + "," + location.getPitch() + "]";
     }
 
+
     public static String formatInt(int i) {
         int r = i * 1000;
         int sec = r / 1000 % 60;
