@@ -20,6 +20,6 @@ The following is the installation guide for Maven.
 <dependency>
     <groupId>com.github.paralian-inc</groupId>
     <artifactId>ParaUtils</artifactId>
-    <version>v0.1</version>
+    <version>v0.1.1</version>
 </dependency>
 ```
