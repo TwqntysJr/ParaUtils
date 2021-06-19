@@ -1,5 +1,5 @@
 # ParaUtils
-![Open Issues](https://img.shields.io/github/issues/paralian-inc/ParaUtils)
+![Open Issues](https://img.shields.io/github/issues/paralian-inc/ParaUtils) ![Current Version](https://img.shields.io/github/v/tag/paralian-inc/ParaUtils)
 
 ## Installation
 
