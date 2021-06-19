@@ -1,0 +1,4 @@
+name: Parautils
+version: ${project.version}
+main: plzmercy.paralian.parautils.Parautils
+api-version: 1.17
