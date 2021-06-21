@@ -10,7 +10,7 @@ public class CommandArgs {
     private String label;
     private String[] args;
 
-    protected CommandArgs(CommandSender sender, org.bukkit.command.Command command, String label, String[] args,
+    public CommandArgs(CommandSender sender, org.bukkit.command.Command command, String label, String[] args,
                           int subCommand) {
         String[] modArgs = new String[args.length - subCommand];
         for (int i = 0; i < args.length - subCommand; i++) {

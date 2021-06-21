@@ -12,7 +12,7 @@ import java.util.List;
 public class BukkitCommand extends org.bukkit.command.Command{
     private Plugin owningPlugin;
     private CommandExecutor ex;
-    protected BukkitCompleter completer;
+    BukkitCompleter completer;
 
     protected BukkitCommand(String label, CommandExecutor executor, Plugin owner){
         super(label);
