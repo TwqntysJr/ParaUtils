@@ -9,6 +9,8 @@ import plzmercy.paralian.parautils.menu.Menu;
 
 public class MenuListener implements Listener {
 
+
+
     @EventHandler
     public void onMenuClick(InventoryClickEvent e){
         Player p = (Player) e.getWhoClicked();
