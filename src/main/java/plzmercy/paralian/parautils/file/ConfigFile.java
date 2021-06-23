@@ -1,10 +1,10 @@
 package plzmercy.paralian.parautils.file;
 
-import lombok.Getter;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import plzmercy.paralian.parautils.chat.Color;
+
 
 import java.io.File;
 import java.io.IOException;
