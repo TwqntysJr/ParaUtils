@@ -1,16 +1,21 @@
 package plzmercy.paralian.parautils.file;
 
-import lombok.Getter;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import plzmercy.paralian.parautils.chat.Color;
 
+
 import java.io.File;
 import java.io.IOException;
 
 public class ConfigFile extends YamlConfiguration {
-    @Getter private File file;
+    private File file;
+
+    public File getFile() {
+        return file;
+    }
+
     private JavaPlugin plugin;
     private String name;
 
