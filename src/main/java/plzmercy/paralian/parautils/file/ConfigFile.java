@@ -10,7 +10,12 @@ import java.io.File;
 import java.io.IOException;
 
 public class ConfigFile extends YamlConfiguration {
-    @Getter private File file;
+    private File file;
+
+    public File getFile() {
+        return file;
+    }
+
     private JavaPlugin plugin;
     private String name;
 
