@@ -9,6 +9,7 @@ public class PingUtility {
     private static Method getHandleMethod;
     private static Field pingField;
 
+    //Get ping method TODO: add javadoc
     public static int getPing(Player p){
         try{
             if(getHandleMethod == null){
