@@ -23,3 +23,11 @@ The following is the installation guide for Maven.
     <version>v0.1.2</version>
 </dependency>
 ```
+**Latest Development Dependency (Not Recommended):**
+```
+<dependency>
+    <groupId>com.github.paralian-inc</groupId>
+    <artifactId>parautils</artifactId>
+    <version>1.18.1_DEV</version>
+</dependency>
+```
