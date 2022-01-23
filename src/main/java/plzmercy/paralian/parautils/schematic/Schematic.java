@@ -314,6 +314,10 @@ public class Schematic {
         this.schematic = schematic;
     }
 
+    private void test(){
+        return;
+    }
+
     private BlockFace getDirection(Player p){
         float yaw = p.getLocation().getYaw();
         if(yaw < 0){
