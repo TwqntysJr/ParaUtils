@@ -51,9 +51,7 @@
             </resource>
         </resources>
     </build>
-
     <repositories>
-
         <repository>
             <id>nms-repo</id>
             <url>https://repo.codemc.io/repository/nms/</url>
